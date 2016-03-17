@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         setLabel()
     }
     
+    @IBAction func decrementCounter(sender: AnyObject) {
+        counter -= 1
+        setLabel()
+    }
+    
     // You are going to need another method that the decrement button fires.
     // It will start out something like:
     // @IBAction func decrementCounter ...
